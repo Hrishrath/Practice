@@ -6,7 +6,16 @@ const Form = () => {
     const customStyle = style();
 
     return (
-        <div>Form</div>
+        <div>
+            <div style='flex'>
+                <h1>ABCD</h1>
+            </div>
+            <div style='flex'>
+                <h1>CDEF</h1>
+            </div>
+            <label>NAme</label>
+            <input type="text" value="abc" />
+        </div>
     )
 }
 
