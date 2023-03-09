@@ -44,7 +44,7 @@ const app = () => {
     };
     return (
         <div>
-            <Form classes={{ ...dialogWidth, ...minDialogWidth, ...summaryPadding, ...iconWrapperMargin, ...iconWrapperMargin }} />
+            <Form />
         </div>
     )
 }
